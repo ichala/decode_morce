@@ -16,8 +16,6 @@ def morse_decode_char(char)
 end
 
 
-morse_dict.key(morse_char) || ' '
-end
 
 def morse_decode_word(morse_word)
   word = ''
