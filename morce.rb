@@ -35,7 +35,7 @@ def morse_decode_sentence(morse_msg)
   msg.join(' ')
 end
 
-puts "Your decoded message is: #{decode_msg(morse_str)}"
+puts "Your decoded message is: #{morse_decode_sentence(morse_str)}"
 
 puts morse_decode_char('.-')
 puts morse_decode_word('-- -.--')
