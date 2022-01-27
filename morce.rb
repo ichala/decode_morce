@@ -1,3 +1,6 @@
+print 'Type some morse code here: '
+morse_str = gets.chomp
+
 def morse_decode_char(char)
   morse_chars = {
     '.-' => 'A', '-...' => 'B', '-.-.' => 'C', '-..' => 'D', '.' => 'E',
