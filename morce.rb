@@ -15,8 +15,6 @@ def morse_decode_char(char)
   end
 end
 
-
-
 def morse_decode_word(morse_word)
   word = ''
   morse_word.split.each do |char|
