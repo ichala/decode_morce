@@ -24,6 +24,15 @@ def morse_decode_word(morse_word)
   word
 end
 
+def morse_decode_sentence(morse_msg)
+  msg = []
+  morse_msg.split('   ').each do |word|
+    msg.push(morse_decode_word(word))
+  end
+  msg.join(' ')
+end
+
+puts "Your decoded message is: #{decode_msg(morse_str)}"
 
 puts morse_decode_char('.-')
 puts morse_decode_word('-- -.--')
